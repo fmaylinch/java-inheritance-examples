@@ -1,5 +1,11 @@
 package tech.bts.examples;
 
+/**
+ * A binary operation has 2 operands.
+ *
+ * Note: when you "extend" an interface, you need to use the keyword "implements".
+ * Note: this class is abstract because it doesn't implement the method {@link Operation#getResult()}.
+ */
 abstract public class BinaryOperation implements Operation {
 
     private double operand1;

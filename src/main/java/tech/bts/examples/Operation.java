@@ -1,6 +1,6 @@
 package tech.bts.examples;
 
-abstract public class Operation {
+public interface Operation {
 
-    abstract public double getResult();
+    double getResult();
 }

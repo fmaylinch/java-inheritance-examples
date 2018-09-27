@@ -1,6 +1,6 @@
 package tech.bts.examples;
 
-abstract public class BinaryOperation extends Operation {
+abstract public class BinaryOperation implements Operation {
 
     private double operand1;
     private double operand2;

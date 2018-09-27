@@ -1,6 +1,6 @@
 package tech.bts.examples;
 
-abstract public class UnaryOperation extends Operation {
+abstract public class UnaryOperation implements Operation {
 
     private double operand;
 

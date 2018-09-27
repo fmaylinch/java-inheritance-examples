@@ -1,6 +1,6 @@
 package tech.bts.examples;
 
-public class Zero extends Operation {
+public class Zero implements Operation {
 
     @Override
     public double getResult() {

@@ -10,13 +10,15 @@ public class OperationsProgram {
         Operation op1 = new Sum(5, 7);
         Operation op2 = new Multiplication(3, 5);
         Operation op3 = new Division(5, 2);
-
-        // Operation op4 = new Operation(4, 8);
+        Operation op4 = new Square(3);
+        Operation op5 = new Zero();
 
         List<Operation> operations = new ArrayList<Operation>();
         operations.add(op1);
         operations.add(op2);
         operations.add(op3);
+        operations.add(op4);
+        operations.add(op5);
 
         // Loop the list and print the result of each operation
 

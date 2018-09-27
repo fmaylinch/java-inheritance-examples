@@ -1,6 +1,6 @@
 package tech.bts.examples;
 
-public class Sum extends Operation {
+public class Sum extends BinaryOperation {
 
     public Sum(double operand1, double operand2) {
         super(operand1, operand2);

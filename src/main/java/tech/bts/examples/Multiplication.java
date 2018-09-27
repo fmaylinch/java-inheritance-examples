@@ -1,6 +1,6 @@
 package tech.bts.examples;
 
-public class Multiplication extends Operation {
+public class Multiplication extends BinaryOperation {
 
     public Multiplication(double operand1, double operand2) {
         super(operand1, operand2);
